@@ -44,7 +44,7 @@ end
 
 @out = @out.map do |elm| 
 	elm.to_a.flatten!
-	4.times do |i|
+	n.times do |i|
 		i+=1
 		if not elm[i] 
 			elm[i] = 0
